@@ -1,0 +1,76 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+*.secret
+credentials.json
+*.pem
+!ca.pem
+
+# Build Output
+dist/
+build/
+.tmp/
+public/build/
+
+# TypeScript & Cache
+*.tsbuildinfo
+
+# Prisma generated (if using non-node_modules output)
+/src/generated/prisma
+
+# Testing & Coverage
+coverage/
+coverage-final.json
+lcov.info
+test-results.xml
+.vitest/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.pid
+*.seed
+
+# AI Assistants & Prompts
+claude.md
+CLAUDE.md
+.claude/
+claude/
+*.local
+
+# Temporary / Scratch files & Reports
+scratch/
+knip-report.txt
+*.tmp
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Vercel CLI cache
+.vercel/

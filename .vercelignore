@@ -1,0 +1,32 @@
+# Documentação e Design
+*.md
+docs/
+DESIGN.md
+
+# IA / Configurações de Assistentes
+claude.md
+CLAUDE.md
+.claude/
+claude/
+*.local
+
+# Relatórios e Scripts Locais
+knip-report.txt
+
+# Testes
+coverage/
+*.test.ts
+*.spec.ts
+tests/
+__tests__/
+
+# Git
+.git/
+.github/
+.gitignore
+
+# Editores & Sistema Operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
