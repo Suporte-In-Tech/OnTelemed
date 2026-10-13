@@ -19,6 +19,7 @@ async function main() {
       tipo_usuario: tipo,
       registroFull: true
     },
+
     create: {
       email,
       senha_hash,
